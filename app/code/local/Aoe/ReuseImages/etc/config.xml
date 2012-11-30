@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<modules>
+		<Aoe_ReuseImages>
+			<active>true</active>
+			<codePool>local</codePool>
+			<version>0.0.1</version>
+		</Aoe_ReuseImages>
+	</modules>
+	
+	<global>
+		
+		<models>
+			<aoestatistics>
+				<class>Aoe_ReuseImages_Model</class>
+			</aoestatistics>
+			<catalog>
+				<rewrite>
+					<product_attribute_backend_media>Aoe_ReuseImages_Model_Media</product_attribute_backend_media>
+				</rewrite>
+			</catalog>
+		</models>
+	
+		<helpers>
+			<aoestatistics>
+				<class>Aoe_ReuseImages_Helper</class>
+			</aoestatistics>
+		</helpers>
+	
+	</global>
+	
+</config>
