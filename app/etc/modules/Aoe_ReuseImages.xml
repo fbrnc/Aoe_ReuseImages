@@ -3,7 +3,7 @@
 	<modules>
 		<Aoe_ReuseImages>
 			<active>true</active>
-			<codePool>local</codePool>
+			<codePool>community</codePool>
 		</Aoe_ReuseImages>
 	</modules>
 </config>
