@@ -4,7 +4,7 @@
 	<modules>
 		<Aoe_ReuseImages>
 			<active>true</active>
-			<codePool>local</codePool>
+			<codePool>community</codePool>
 			<version>0.0.1</version>
 		</Aoe_ReuseImages>
 	</modules>
